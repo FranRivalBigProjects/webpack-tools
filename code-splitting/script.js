@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=+chunks.value,s=+size.value;if(!c||!s){res.innerText='Enter values';return;}res.innerText=`Chunk size: ${(s/c).toFixed(2)} KB`; }

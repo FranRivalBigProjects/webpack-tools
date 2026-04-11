@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let f=files.value.split('\n').length;res.innerText=`Files: ${f}`;}

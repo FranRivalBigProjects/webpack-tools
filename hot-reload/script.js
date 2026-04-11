@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let r=+reloads.value,t=+time.value;if(!r||!t){res.innerText='Enter values';return;}res.innerText=`Reload/sec: ${(r/t).toFixed(2)}`;}

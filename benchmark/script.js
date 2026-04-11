@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let r=+runs.value,t=+time.value;if(!r||!t){res.innerText='Enter values';return;}res.innerText=`Avg: ${(t/r).toFixed(2)}s`; }

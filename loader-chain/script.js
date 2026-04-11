@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let l=loaders.value.split('\n').length;res.innerText=`Loaders: ${l}`;}

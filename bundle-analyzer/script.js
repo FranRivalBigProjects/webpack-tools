@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let m=+modules.value,s=+size.value;if(!m||!s){res.innerText='Enter values';return;}res.innerText=`Avg size: ${(s/m).toFixed(2)} KB`; }

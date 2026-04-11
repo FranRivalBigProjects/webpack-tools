@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let m=modules.value.split('\n').length;res.innerText=`Modules: ${m}`;}

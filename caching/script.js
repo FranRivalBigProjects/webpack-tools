@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let h=+hits.value,t=+total.value;if(!h||!t){res.innerText='Enter values';return;}res.innerText=`Hit rate: ${(h/t*100).toFixed(2)}%`; }

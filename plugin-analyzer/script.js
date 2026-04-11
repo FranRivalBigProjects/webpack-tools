@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let p=plugins.value.split('\n').length;res.innerText=`Plugins: ${p}`;}

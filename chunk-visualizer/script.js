@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let c=chunks.value.split('\n').length;res.innerText=`Chunks: ${c}`;}

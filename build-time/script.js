@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){let m=+modules.value,t=+time.value;if(!m||!t){res.innerText='Enter values';return;}res.innerText=`Time/module: ${(t/m).toFixed(2)}s`; }

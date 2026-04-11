@@ -1,0 +1,1 @@
+const res=document.getElementById('res');function run(){res.innerText=config.value.includes('entry')?'Valid config':'Invalid config';}
